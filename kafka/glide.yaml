@@ -1,0 +1,6 @@
+package: comsoft/kafka
+import:
+- package: github.com/Shopify/sarama
+  version: ~1.22.1
+- package: github.com/go-micro-out-parts/sarama-cluster
+  version: ~v2.1.15
