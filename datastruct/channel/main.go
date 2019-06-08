@@ -5,6 +5,9 @@ import (
 	"time"
 )
 
+
+//haha
+
 func addNumberToChan(chanName chan int) {
 	for {
 		chanName <- 1
