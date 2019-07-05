@@ -1,0 +1,7 @@
+package: langbasic/websocket
+import:
+- package: github.com/golang-source/websocket
+  version: ~1.4.0
+- package: github.com/gorilla/websocket
+  version: ~1.4.0
+- package: socket/impl

@@ -1,8 +1,7 @@
-package main
+package sleep_getsched
 
 import (
 	"fmt"
-	"time"
 	"sync/atomic"
 )
 
@@ -25,6 +24,13 @@ func print5(i int) {
 const COUNT =10000
 
 func main() {
+	fmt.Println("hello world....\n")
+	}
+
+
+
+/*
+func main1() {
 	var i  =0
 	for ;i<COUNT;i++ {
 		go print5(i)
@@ -37,4 +43,4 @@ func main() {
 	}
 
 	fmt.Println("----------total:",total)
-}
+********/
